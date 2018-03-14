@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+
+header{
+	background: url(../img/bgc_header.jpg) no-repeat #68201a;
+	height: 100vh;
+	box-shadow:0 0 0 2000px rgba(0, 0, 0, 0.45) inset;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+a, h1,p{
+	color: #fff;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.menu{
+	position: relative;
+	bottom: 0;
+	margin: 0 auto;
+	height: 60px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.logo
+{
+	position: absolute;
+	bottom: 0;
+	left:0;
+}
+
+.logo a{
+	font-size:24px;
+	font-weight: 700;
+}
+
+.navigation{
+	position: absolute;
+	bottom: 0;
+	right:0;
+}
+.navigation a{
+	font-size: 14px;
+}
+
+.menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+.menu li {
+	float: left;
+	margin-right: 40px;
+	font-weight: 400;
+}
+.menu li:last-child {
+	margin: 0;
+}
+
+.mainpart{
+	position: absolute;
+	margin: 0 auto;
+	width: 50%;
+	height: 190px;
+	top: 50%;
+	left: 25%;
+	margin-top: -100px;
+	text-align: center;
+}
+
+.mainpart h1{
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 46PX;
+	line-height: 1em;		
+	margin-bottom: 30px;	
+
+}
+.mainpart p {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 	70px;
+}
+
+.mainpart a{
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 18px 36px;
+	border: 2px solid #fff;
+
+
+}
+.mainpart a:hover{
+	background-color: #fff;
+	color: #68201a;
+}
