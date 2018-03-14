@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -8,11 +9,11 @@ header{
 	background: url(../img/bgc_header.jpg) no-repeat #68201a;
 	height: 100vh;
 	box-shadow:0 0 0 2000px rgba(0, 0, 0, 0.45) inset;
-	font-family: 'Montserrat', sans-serif;
+
 }
 
 
-a, h1,p{
+a, h1,p, h2{
 	color: #fff;
 	text-decoration: none;
 	margin: 0;
@@ -26,7 +27,6 @@ a, h1,p{
 	margin: 0 auto;
 	height: 60px;
 	width: 85%;
-	margin: 0 auto;
 }
 
 .logo
@@ -102,4 +102,104 @@ a, h1,p{
 .mainpart a:hover{
 	background-color: #fff;
 	color: #68201a;
+}
+
+.services{
+	background-color: #fff;
+	margin: 0 auto;	
+	margin-top: 100px;
+	color: #717171;
+	text-align: center;
+	width: 85%;
+}
+
+.services h2{
+	text-transform: uppercase;	
+	font-size: 20px;
+	color: #717171;
+	margin-bottom: 30px;
+}
+.line{
+	border-bottom: 1px solid #717171;
+	width: 50px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.services p{
+	color: #717171;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+.services_types{
+	height: 218px;
+    margin-bottom: 100px;
+}
+.services_types_item{
+	width: 33.3%;
+	position: relative;
+	height: 218px;
+	float: left;
+	padding: 0;
+
+}
+
+.services_types_item h3{
+	text-transform: uppercase;	
+	font-size: 14px;
+	color: #717171;
+	position: absolute;
+	top: 50%;	
+	left:50%;
+	margin-right: -50%;
+	margin-top: 2em;
+    transform: translate(-50%, -50%);
+}
+
+.services_types_item p{
+	font-size: 14px;
+	color: #717171;
+	font-family: 'Roboto Slab', serif;
+	margin: 0;
+	display: block;
+	position: absolute;
+	top: 85%;	
+	left:50%;
+	margin-right: -50%;
+	margin-bottom: -50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    padding-right: 15px;
+}
+
+
+
+
+
+.icon{
+	height: 90px;
+	width: 90px;
+	border: 3px solid #f1f1f1;
+	border-radius: 50%;
+	position: absolute;
+	top:0;
+	left:50%;
+	margin-left: -46px;
+	text-transform: uppercase;
+	color: #c0301c;
+}
+.icon:hover{
+	background-color: #c0301c;
+	color: #fff;
+}
+
+.icon i{
+	font-size: 2.5em;
+    padding:25px 0 ;
+}
+
+.services_types_item:last-child{
+	float: right;
+	padding: 0;
 }
