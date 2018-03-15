@@ -246,7 +246,6 @@ h3{
 .people{
 	width: 85%;
 	margin: 0 auto;
-	height: 310px;
 	padding-bottom: 100px;
 }
 
@@ -300,4 +299,61 @@ h3{
 	left:50%;
 	margin-right: -50%;
     transform: translate(-50%, -50%);
+}
+
+.latest_works{
+	width: 85%;
+	margin: 0 auto;	
+	padding-top: 100px;
+	color: #717171;
+	text-align: center;
+	overflow:hidden;
+}
+
+.latest_works ul{
+	display: inline-block;
+	list-style-type:none;
+    margin-bottom: 70px;
+}
+
+.latest_works li{
+	position: relative;
+	float: left;
+}
+
+.latest_works a{
+	color: #717171;
+	font-family: 'Roboto Slab', serif;
+	margin-right: 3em;
+}
+
+.latest_works a:hover{
+	color: #c0301c;
+
+}
+
+.works{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+}
+
+
+.works_item {
+	float: left;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+	display:inline-block;
+}
+
+
+
+.works_item .photo{
+	height: 320px;
+	width: 360px;
+}
+
+.works_item .photo:hover{
+	background-color:#c0301c;
+	opacity: 0.5;
 }
