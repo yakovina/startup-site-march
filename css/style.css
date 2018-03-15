@@ -117,7 +117,7 @@ h3{
 	text-decoration: none;
 }
 
-.mainpart a{
+.mainpart a, .your_project a{
 	color: #fff;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -126,7 +126,7 @@ h3{
 
 
 }
-.mainpart a:hover{
+.mainpart a:hover, .your_project a:hover{
 	background-color: #fff;
 	color: #68201a;
 }
@@ -308,6 +308,8 @@ h3{
 	color: #717171;
 	text-align: center;
 	overflow:hidden;
+	padding: 0;
+	margin-bottom: 100px;
 }
 
 .latest_works ul{
@@ -336,6 +338,7 @@ h3{
 	width:100%;
 	display:inline-block;
 	text-align:center;
+	padding: 0;
 }
 
 
@@ -343,10 +346,12 @@ h3{
 	float: left;
 	margin-right: 1.5%;
 	margin-bottom: 1.5%;
-	display:inline-block;
+	display:inline-block; padding: 0;
 }
 
-
+.works_item:nth-child(n+7){
+	margin-bottom:0;
+}
 
 .works_item .photo{
 	height: 320px;
@@ -357,3 +362,36 @@ h3{
 	background-color:#c0301c;
 	opacity: 0.5;
 }
+
+.your_project{
+	position: relative;
+	padding-top: 96px;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+	-webkit-background-size: auto;
+	background-size: auto;
+	box-shadow:0 0 0 1000px rgba(192, 48, 28, 0.5) inset;
+	padding-bottom: 110px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.your_project img{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 100%;
+	z-index:-1;
+
+}
+
+
+
+.your_project h1{
+	font-size: 30px;
+	line-height: 1.37em;
+	margin-bottom: 60px;
+	font-weight: 400;
+}
+
