@@ -38,6 +38,8 @@ h2{
 	font-size: 20px;
 	color: #717171;
 	margin-bottom: 30px;
+	padding-top: 100px;
+	text-align: center;
 }
 
 h3{
@@ -134,7 +136,6 @@ h3{
 .services{
 	background-color: #fff;
 	margin: 0 auto;	
-	margin-top: 100px;
 	color: #717171;
 	text-align: center;
 	width: 85%;
@@ -146,11 +147,12 @@ h3{
 	margin: 0 auto;
 	margin-bottom: 30px;
 }
-.services p, .aboutus p{
+.services p, .aboutus p, .blogpost p, .getintouch p{
 	color: #717171;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 	margin-bottom: 70px;
+	text-align: center;
 }
 
 .services_types{
@@ -219,12 +221,10 @@ h3{
 
 .aboutus{
 	background-color: #f8f8f8;
-	margin: 0 auto;	
-	padding-top: 100px;
 	color: #717171;
 	text-align: center;
-
 }
+
 
 .aboutus_info{
 	width: 85%;
@@ -304,7 +304,6 @@ h3{
 .latest_works{
 	width: 85%;
 	margin: 0 auto;	
-	padding-top: 100px;
 	color: #717171;
 	text-align: center;
 	overflow:hidden;
@@ -395,3 +394,159 @@ h3{
 	font-weight: 400;
 }
 
+.post{
+	width: 85%;
+	margin: 0 auto;
+	padding-bottom: 77px;
+}
+.post:last-child{
+	padding-bottom: 100px;
+}
+
+
+
+.post img{
+	float: left;
+	margin-right: 40px;
+}
+
+.post_text p{
+	text-align: left;
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+.post_header {
+	float: left;
+}
+.post_text{
+	float: right;
+	width: 56%;
+}
+
+
+
+.date{
+	border: 2px solid #717171;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.25em;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	margin-right: 40px;
+	display: block;
+	padding: 15px;
+}
+
+.date p{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+
+address{
+	font-size: 13px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.date span{
+	font-size: 24px;
+	padding: 0;
+	color: #717171;
+	text-align: center;
+}
+h4{
+	float: left;
+	font-size: 13px;
+}
+
+.post a{
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	color: #717171;
+	font-size: 15px;
+}
+
+.post h3{
+	font-size: 16px;
+}
+
+
+.post a:hover, .post h3:hover{
+	color:#c0301c;
+}
+
+address:hover{
+	color:#c0301c;
+}
+
+.getintouch{
+	width: 85%;
+	margin: 0 auto;
+	padding-bottom:100px;
+}
+
+.getintouch_form{
+	width: 65%;
+	float: right;
+}
+
+.getintouch_form_inp{
+	float: left;
+	width:43%;
+	margin-bottom: 20px;
+}
+
+.getintouch_form_inp input, textarea{
+	width:100%;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Roboto Slab', serif;
+	padding: 18px;
+	outline:none;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+
+
+.getintouch_form_inp input:hover,textarea:hover {
+	border: 1px solid #c0301c;
+}
+
+
+.getintouch_form_inp:nth-child(2n){
+	float: right;
+}
+.getintouch_form_inp:nth-child(5){
+	width:100%;
+}
+
+.getintouch_form_inp:nth-child(7){
+	width: 30%;
+	margin-bottom: 0;
+}
+.getintouch_form_inp:nth-child(6){
+	width: 70%;
+	margin: 0;
+}
+.getintouch_form_inp:nth-child(7) input:hover{
+	background-color: #c0301c;
+	color: #fff;
+
+}
+.getintouch_form_inp p{
+	color: #000;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	padding-top: 18px;
+}
+.getintouch_form_inp span{
+	color: #c0301c;
+}
